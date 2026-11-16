@@ -8,3 +8,42 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+body {
+    /* Style global de la page */
+    font-family: "Open Sans", sans-serif;
+    /* Une police lisible et moderne */
+    background-color: rgb(240, 240, 240);
+    /* Fond gris clair */
+    text-align: center;
+    /* Centre le texte et les éléments inline */
+    padding: 100px 50px;
+    /* Espace intérieur pour aérer la page */
+}
+
+h1 {
+    /* Le grand titre */
+    font-size: 48px;
+    /* Titre bien visible */
+    margin-bottom: 30px;
+    /* Espace sous le titre */
+}
+
+.container {
+    /* La “carte” qui contient la question/réponse */
+    background-color: white;
+    /* Fond blanc contrastant avec le fond gris */
+    padding: 30px;
+    /* Espace intérieur de la carte */
+    margin: 30px auto;
+    /* Centrage horizontal (auto) + espace vertical */
+    width: 500px;
+    /* Largeur fixe de la carte */
+    border-radius: 5px;
+    /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    /* Ombre douce pour donner de la profondeur */
+}
+
+.form-control {
+    margin-block: 5px;
+}
